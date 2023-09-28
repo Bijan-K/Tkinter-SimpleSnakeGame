@@ -6,6 +6,7 @@ from PIL import Image, ImageTk
 
 
 root = Tk()
+root.title("Snake Game")
 root.geometry("1250x700")
 canvas = Canvas(root,width=1250,height=700, bg='#6a788f')
 canvas.pack()
